@@ -179,8 +179,7 @@ export default function Background3D() {
         <ambientLight intensity={1.6} />
         <pointLight position={[10, 10, 10]} intensity={3} color="#e0f2fe" />
         <BinaryStream count={300} />
-        <Stars radius={200} depth={50} count={8000} factor={7} saturation={0} fade speed={2} />
-        <fog attach="fog" args={['#020617', 5, 40]} />
+        <Stars radius={200} depth={50} count={3000} factor={5} saturation={0} fade speed={2} />
       </Canvas>
     </div>
   );

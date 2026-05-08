@@ -24,7 +24,7 @@ canvas {
 }
 
 body {
-  background-color: var(--bg-sky);
+  background-color: transparent;
   color: #e2e8f0;
   overflow-x: hidden;
 }
