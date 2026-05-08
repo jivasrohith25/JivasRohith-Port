@@ -71,7 +71,7 @@ export default function App() {
               transition={{ delay: 0.6 }}
             >
               <a
-                href="/Jivas Rohith Resume.pdf"
+                href={`${import.meta.env.BASE_URL}Jivas Rohith Resume.pdf`}
                 download
                 className="bg-blue-600 text-white px-10 py-5 rounded-2xl font-black hover:scale-105 transition-all shadow-[0_0_30px_rgba(37,99,235,0.35)] uppercase tracking-widest text-lg"
               >
@@ -196,7 +196,7 @@ export default function App() {
               {/* Photo */}
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-[3rem] glass border-2 border-blue-600/20 p-4 shadow-[0_0_50px_rgba(37,99,235,0.15)] shrink-0 overflow-hidden">
                 <img
-                  src="/me.png"
+                  src={`${import.meta.env.BASE_URL}me.png`}
                   alt="Jivas Rohith"
                   className="w-full h-full rounded-[2rem] object-cover"
                 />

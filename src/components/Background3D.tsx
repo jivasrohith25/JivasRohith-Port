@@ -163,7 +163,7 @@ export default function Background3D() {
         className="absolute inset-0"
         style={{
           zIndex: 0,
-          backgroundImage: "url('/sky.jpg')",
+          backgroundImage: `url('${import.meta.env.BASE_URL}sky.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat'
