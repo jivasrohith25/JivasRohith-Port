@@ -38,12 +38,12 @@ export const PROJECTS: Project[] = [
     title: "Vgamepad",
     description: "Multi-player controller system enabling up to 6 players to use smartphones as game controllers over local WiFi.",
     tech: ["Node.js", "WebSockets", "vgamepad"],
-    category: "DevOps",
+    category: "Web Development",
     links: { github: "https://github.com/jivasrohith25" }
   }
 ];
 
 export const SKILLS_LIST = [
   "Python", "LangChain", "Machine Learning", "Deep Learning",
-  "Git", "Linux", "Devops", "Networking", "Leadership", "Communication"
+  "Git", "Linux", "Devops", "Networking", "Teamwork", "Communication"
 ];

@@ -7,7 +7,7 @@ export interface Project {
     github?: string;
     demo?: string;
   };
-  category: 'AI' | 'Cybersecurity' | 'DevOps' | 'IoT';
+  category: 'AI' | 'Cybersecurity' | 'DevOps' | 'IoT' | 'Web Development';
 }
 
 export interface Skill {
